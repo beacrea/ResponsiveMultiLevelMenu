@@ -13,8 +13,6 @@
 
 .dl-menuwrapper {
 	width: 100%;
-	max-width: 300px;
-	float: left;
 	position: relative;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -31,6 +29,7 @@
 .dl-menuwrapper button {
 	background: #ccc;
 	border: none;
+	float: right;
 	width: 48px;
 	height: 45px;
 	text-indent: -900em;
@@ -138,6 +137,8 @@
 .dl-menuwrapper .dl-menu.dl-menuopen {
 	opacity: 1;
 	pointer-events: auto;
+	text-align: left;
+	margin-top: 50px;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
